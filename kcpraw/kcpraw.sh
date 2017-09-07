@@ -1909,7 +1909,7 @@ get_kcpraw_server_file() {
 		get_arch
 	fi
 
-	echo "${KCPRAW_INSTALL_DIR}/server_$file_suffix"
+	echo "${KCPRAW_INSTALL_DIR}/kcpraw_server_$file_suffix"
 }
 
 get_new_instance_id() {
